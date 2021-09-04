@@ -1,0 +1,114 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: url("./Images/fox.jpg") no-repeat fixed;
+}
+
+.mainTitle{
+	text-align: center;
+	width:500px;
+	margin:0 auto;
+	background-color: indianred;
+	justify-content: center;
+
+}
+#Wrapper{
+	margin:0 auto;
+	display: flex;
+	padding-top: 30px;
+}
+
+.divClass{
+	background-color: #1A1A1D;
+	border: 3px solid #C3073F;
+	display: inline-block;
+}
+
+.title_list{
+	color:green;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.box-container {
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 450px;
+	float: left; 
+	min-height: 12em;
+	font-size: 15px;
+	display: inline-table;
+	color:#fff; 
+	padding:0;
+}
+
+.box {
+	width:90px;
+	height:90px;
+	vertical-align: top;
+	border: 3px solid #059167;
+	padding: 1em;
+	background-color: antiquewhite;
+	color:#000;
+	cursor: pointer;
+	margin: 3px 3px 3px 0; 
+	float: left; 
+	text-align: center;
+}
+
+.box img{
+	width:80px;
+	height:80px;
+}
+
+.box.correct{
+	background: #41b0e0;
+	pointer-events: none;
+}
+
+.box.incorrect{
+	background: #e04141;
+}
+
+
+.box.ui-draggable-dragging{
+	box-shadow: 0 3px 20px #059167;
+}
+
+.droparea {
+	text-align: center;
+	color:lavenderblush;
+	border: 3px solid #C3073F;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background: #00000070;
+	display: inline-block;
+	vertical-align: top;
+	width: 580px;
+	height: 500px;
+	margin-left: 2em;
+}
+
+h2{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 28px;
+	background-color: linen;
+	color:#000;
+}
+
+.droparea:hover{
+	box-shadow: 1px 1px 15px 10px red;
+}
+
+.score-container {
+	display: inline-block;
+	vertical-align: top;
+	border: 3px solid #C3073F;
+	font-size: 20px;
+	margin-left: 2em;
+	background-color: #ffb58a;
+	margin: auto;
+	padding: 10px;
+}
+  

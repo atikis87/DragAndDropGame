@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Attila Kiss">
+    <title>Animal Class Game</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+<h2 class="mainTitle">Animal Class Game</h2>
+<div id="Wrapper">
+    <!-- Animals BOX-->
+    <div class="divClass">
+      <div class="title_list">Animals List</div>
+      <ul class='box-container'>
+        <li class='box' data-numtype='Amphibians'><img alt="frog" src="./Images/treeFrog.jpg">Tree Frog</li>
+        <li class='box' data-numtype='Mammals'><img alt="dog" src="./Images/dog.jpeg">Dog</img></li>
+        <li class='box' data-numtype='Mammals'><img alt="chicken" src="./Images/chicken.jpg">Chicken</li>
+
+        <li class='box' data-numtype='Reptiles'><img alt="cobra" src="./Images/cobra.jpg">Snake</li>
+        <li class='box' data-numtype='Mammals'><img alt="mouse" src="./Images/mouse.png">Mouse</li>
+        <li class='box' data-numtype='Reptiles'><img alt="iguana" src="./Images/Iguana.png">Iguana</li>
+
+        <li class='box' data-numtype='Amphibians'><img alt="crocodile" src="./Images/kroko.jpg">Crocodile</li>
+        <li class='box' data-numtype='Reptiles'><img alt="lizard" src="./Images/lizard.jpg">Lizard</li>
+        <li class='box' data-numtype='Mammals'><img alt="cat" src="./Images/cat.png">Cat</li>
+
+      </ul>
+    </div>
+
+
+  <!-- ANIMALS SELECT BOX -->
+      <div class='droparea' data-area-numtype='Mammals'>
+        <h2>Mammals</h2>
+      </div>
+      
+      <div class='droparea' data-area-numtype='Reptiles'>
+        <h2>Reptiles</h2>
+      </div>
+
+      <div class='droparea' data-area-numtype='Amphibians'>
+        <h2>Amphibiens</h2>
+      </div>
+
+</div>
+      <!-- SCORE -->
+      <div class='score-container'>Your Score: <span id='score'>-</span></div>
+
+</body>
+</html>
